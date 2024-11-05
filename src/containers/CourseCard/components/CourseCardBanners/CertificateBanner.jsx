@@ -53,13 +53,13 @@ export const CertificateBanner = ({ cardId }) => {
     );
   }
   if (!isPassing) {
-    if (isAudit) {
-      return (
-        <Banner>
-          {formatMessage(messages.passingGrade, { minPassingGrade })}
-        </Banner>
-      );
-    }
+    // if (isAudit) {
+    //   return (
+    //     <Banner>
+    //       {formatMessage(messages.passingGrade, { minPassingGrade })}
+    //     </Banner>
+    //   );
+    // }
     if (isArchived) {
       return (
         <Banner variant="warning">
