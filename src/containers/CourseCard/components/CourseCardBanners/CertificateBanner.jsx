@@ -69,11 +69,11 @@ export const CertificateBanner = ({ cardId }) => {
         </Banner>
       );
     }
-    return (
-      <Banner variant="warning">
-        {formatMessage(messages.certMinGrade, { minPassingGrade })}
-      </Banner>
-    );
+    // return (
+    //   <Banner variant="warning">
+    //     {formatMessage(messages.certMinGrade, { minPassingGrade })}
+    //   </Banner>
+    // );
   }
   if (certificate.isEarnedButUnavailable) {
     return (
